@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python makeHash.py >> /root/.jupyter/jupyter_notebook_config.py
+python3 makeHash.py >> /root/.jupyter/jupyter_notebook_config.py
 
 echo "c.notebookApp.open_browser = False" >> /root/.jupyter/jupyter_notebook_config.py
 
